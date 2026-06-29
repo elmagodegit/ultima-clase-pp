@@ -9,3 +9,9 @@ dependencies = [
     "polars>=1.42.0",
     "seaborn>=0.13.2",
 ]
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.6.0",
+    "ruff>=0.15.20",
+]
